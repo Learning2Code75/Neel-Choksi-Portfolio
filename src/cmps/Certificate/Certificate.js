@@ -83,15 +83,6 @@ const Certificate = () => {
       console.error(err);
     }
   };
-  const editCertificateCompData = async () => {
-    const certificateDoc = doc(db, "certificateComponent", certId);
-    let new_cert_data = {
-      compData: [...state],
-      compTheme: { ...certTheme },
-    };
-    await updateDoc(certificateDoc, new_cert_data);
-    await getCertificateComp();
-  };
 
   useEffect(() => {
     getCertificateComp();

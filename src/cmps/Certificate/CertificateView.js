@@ -20,10 +20,16 @@ const CertificateView = ({ state, setState, data }) => {
               // style={{
               //   border: `1px solid ${state.theme.textColor}`,
               // }}
+              style={{
+                maxWidth: "90vw",
+              }}
             >
               <h3
                 style={{
                   color: `${state.theme.titleColor}`,
+                  flexWrap: "wrap",
+                  overflowX: "scroll",
+                  maxWidth: "75vw",
                 }}
               >
                 {d.title}
@@ -48,7 +54,7 @@ const CertificateView = ({ state, setState, data }) => {
                   color: `${state.theme.linkColor}`,
                 }}
               >
-                {d.link}
+                {"Link to Certificate"}
               </a>
             </div>
           ))}
