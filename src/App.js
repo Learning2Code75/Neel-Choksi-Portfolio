@@ -6,8 +6,6 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
-import { signOut } from "firebase/auth";
-import { auth } from "./firebase-config";
 import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 import Home from "./pages/Home";
@@ -17,13 +15,13 @@ import Samples from "./pages/Samples";
 function App() {
   const [isAuth, setIsAuth] = useState(false);
 
-  const signUserOut = () => {
-    signOut(auth).then(() => {
-      localStorage.clear();
-      setIsAuth(false);
-      window.location.pathname = "/login";
-    });
-  };
+  // const signUserOut = () => {
+  //   signOut(auth).then(() => {
+  //     localStorage.clear();
+  //     setIsAuth(false);
+  //     window.location.pathname = "/login";
+  //   });
+  // };
 
   const [active, setActive] = useState(1);
   const [toggle, setToggle] = useState(false);
