@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Neel-Choksi-Portfolio/static/css/main.68e57f55.chunk.css",
+    "main.js": "/Neel-Choksi-Portfolio/static/js/main.f7e10465.chunk.js",
+    "main.js.map": "/Neel-Choksi-Portfolio/static/js/main.f7e10465.chunk.js.map",
+    "runtime-main.js": "/Neel-Choksi-Portfolio/static/js/runtime-main.b2c95719.js",
+    "runtime-main.js.map": "/Neel-Choksi-Portfolio/static/js/runtime-main.b2c95719.js.map",
+    "static/js/2.7e33238a.chunk.js": "/Neel-Choksi-Portfolio/static/js/2.7e33238a.chunk.js",
+    "static/js/2.7e33238a.chunk.js.map": "/Neel-Choksi-Portfolio/static/js/2.7e33238a.chunk.js.map",
+    "static/js/3.6b6240c0.chunk.js": "/Neel-Choksi-Portfolio/static/js/3.6b6240c0.chunk.js",
+    "static/js/3.6b6240c0.chunk.js.map": "/Neel-Choksi-Portfolio/static/js/3.6b6240c0.chunk.js.map",
+    "index.html": "/Neel-Choksi-Portfolio/index.html",
+    "static/css/main.68e57f55.chunk.css.map": "/Neel-Choksi-Portfolio/static/css/main.68e57f55.chunk.css.map",
+    "static/js/2.7e33238a.chunk.js.LICENSE.txt": "/Neel-Choksi-Portfolio/static/js/2.7e33238a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2c95719.js",
+    "static/js/2.7e33238a.chunk.js",
+    "static/css/main.68e57f55.chunk.css",
+    "static/js/main.f7e10465.chunk.js"
+  ]
+}
