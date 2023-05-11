@@ -135,7 +135,10 @@ function App() {
         </nav>
       </header>
       <Routes>
-        <Route path="/" element={<CreatePost setActive={setActive} />} />
+        <Route
+          path="/Neel-Choksi-Portfolio/"
+          element={<CreatePost setActive={setActive} />}
+        />
       </Routes>
     </Router>
   );
