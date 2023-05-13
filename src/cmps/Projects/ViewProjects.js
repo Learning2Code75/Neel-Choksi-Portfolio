@@ -35,14 +35,21 @@ const ViewProjects = ({ data, state }) => {
               <div className="projectCompGrid1ItemFromTo">
                 {d.fromDate} to {d.toDate}
               </div>
-              <img
-                src={d.projectImg}
-                alt="project img"
+              <div
                 style={{
-                  // border: `1px solid ${state.theme.textColor}`,
-                  borderRadius: ".75rem",
+                  width: "75vw",
                 }}
-              />
+              >
+                <img
+                  src={d.projectImg}
+                  alt="project img"
+                  style={{
+                    // border: `1px solid ${state.theme.textColor}`,
+                    borderRadius: ".75rem",
+                    maxWidth: "70vw",
+                  }}
+                />
+              </div>
               <p>{d.projectDescription}</p>
               <a
                 style={{
