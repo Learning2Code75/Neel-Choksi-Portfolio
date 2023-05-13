@@ -62,7 +62,13 @@ const ViewProjects = ({ data, state }) => {
               >
                 {d.projectGithubLink}
               </a>
-              <div className="projectCompGrid2">
+              <div
+                className="projectCompGrid2"
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                }}
+              >
                 {d.techStack.map((ts) => (
                   <div
                     className="projectCompGrid2Item"
@@ -85,6 +91,7 @@ const ViewProjects = ({ data, state }) => {
               <div
                 style={{
                   width: "100%",
+                  marginTop: "2rem",
                 }}
               >
                 <PitcherPageDialog data={d.projectPitcherPage} state={state} />
