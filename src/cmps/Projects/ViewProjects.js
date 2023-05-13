@@ -47,6 +47,7 @@ const ViewProjects = ({ data, state }) => {
               <a
                 style={{
                   color: `${state.theme.linkColor}`,
+                  overflowX: "scroll",
                 }}
                 href={d.projectLiveLink}
                 target="__blank"
@@ -56,6 +57,7 @@ const ViewProjects = ({ data, state }) => {
               <a
                 style={{
                   color: `${state.theme.linkColor}`,
+                  overflowX: "scroll",
                 }}
                 href={d.projectGithubLink}
                 target="__blank"
